@@ -14,8 +14,5 @@ def solution(arr):
             answer.append(i)
     else:
         answer.append(-1)
-    print(answer)
-    return answer
 
-solution([4, 3, 2, 1])
-solution([10])
+    return answer

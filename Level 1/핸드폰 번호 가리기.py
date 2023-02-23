@@ -16,8 +16,5 @@ def solution(phone_number):
     num = result + num_list[-4:]
     
     answer = ''.join(map(str, num))
-    print(answer)
-    return answer
 
-solution("01033334444")
-solution("027778888")
+    return answer

@@ -12,8 +12,5 @@ def solution(n):
         if n % i == 1:
             answer = i
             break
-    print(answer)
-    return answer
 
-solution(10)
-solution(12)
+    return answer

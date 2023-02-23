@@ -17,9 +17,4 @@ def solution(arr, divisor):
     if answer == []:
         answer.append(-1)
         
-    print(answer)
     return answer
-
-solution([5, 9, 7, 10], 5)
-solution([2, 36, 1, 3], 1)
-solution([3, 2, 6], 10)

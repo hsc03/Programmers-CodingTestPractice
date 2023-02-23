@@ -14,10 +14,5 @@ def solution(x):
             answer = True
         else:
             answer = False
-    print(answer)
-    return answer
 
-solution(10)
-solution(12)
-solution(11)
-solution(13)
+    return answer

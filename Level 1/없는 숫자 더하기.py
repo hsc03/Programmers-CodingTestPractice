@@ -5,8 +5,4 @@ numbers에서 찾을 수 없는 0부터 9까지의 숫자를 모두 찾아 더�
 
 def solution(numbers):
     answer = 45 - sum(numbers)
-    print(answer)
     return answer
-
-solution([1,2,3,4,6,7,8,0])
-solution([5,8,4,0,6,7,9])

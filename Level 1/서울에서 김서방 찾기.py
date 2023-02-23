@@ -11,8 +11,5 @@ def solution(seoul):
         if i == "Kim":
             answer = "김서방은 %d에 있다" % count
         count += 1
-    print(answer)
-    return answer
 
-seoul = ["Jane", "Kim"]
-solution(seoul)
+    return answer

@@ -16,8 +16,5 @@ def solution(absolutes, signs):
         count += 1
         
     answer = sum(result)
-    print(answer)
-    return answer
 
-solution([4,7,12], [True,False,True])
-solution([1, 2, 3], [False,False,True])
+    return answer

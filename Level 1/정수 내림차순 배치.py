@@ -9,7 +9,6 @@ def solution(n):
     num.reverse()
     num2 = ''.join(map(str, num))
     answer = int(num2)
-    print(answer)
+
     return answer
 
-solution(118372)
